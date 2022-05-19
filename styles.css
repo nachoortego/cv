@@ -13,7 +13,7 @@ h3 {
 }
 .bg {
     min-height: 100%;
-    background: linear-gradient(133deg, #ffb74d, #ef5350);
+    background: linear-gradient(133deg, #869ddf, #3b45a0); /*#869ddf, #160ca3*/ /*#ffb74d, #ef5350*/
     background-size: 300% 300%;
     -webkit-animation: GradientBG 120s ease infinite;
     -moz-animation: GradientBG 120s ease infinite;
@@ -71,7 +71,7 @@ h3 {
 }
 
 .column1 {
-    flex: 35%
+    flex: 35%;
 }
 
 .column2 {
