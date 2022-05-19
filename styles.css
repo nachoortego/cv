@@ -31,7 +31,6 @@ body {
 .box {
     width: 80%;
     margin:auto;
-    padding-bottom: 100px;
     background-color: rgba(240, 240, 240, 0.466);
     border-radius: 30px;
 }
@@ -47,10 +46,10 @@ body {
 
 .row {
     display: flex;
-    padding: 5px
+    padding: 20px
   }
   
   .column {
     flex: 50%;
-    padding: 5px
+    padding: 20px
   }
