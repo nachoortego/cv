@@ -1,2 +1,2 @@
-# cv.github.io
-CV Webpage Project
+# CV
+Mi CV escrito en HTML/CSS y hosteado en Github Pages
