@@ -1,15 +1,17 @@
 body {
     padding-top: 2%;
+    padding-bottom: 2%;
     font-family: 'Open Sans', Sans-serif;
     font-weight: 400;
 }
 h2 {
     font-family: 'Open Sans', Sans-serif;
-    font-weight: 600;
+    font-weight: 700;
 }
-h3 {
+h4 {
     font-family: 'Open Sans', Sans-serif;
-    font-weight: 400;
+    font-weight: 600;
+    margin-top: 15px;
 }
 .bg {
     min-height: 100%;
@@ -79,5 +81,5 @@ h3 {
 }
 
 .pad {
-    padding:20px;
+    padding:40px;
 }
