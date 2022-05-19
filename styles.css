@@ -1,6 +1,15 @@
 body {
     padding-top: 2%;
-    font-family: 'Open Sans', Helvetica, Sans-serif;
+    font-family: 'Open Sans', Sans-serif;
+    font-weight: 400;
+}
+h2 {
+    font-family: 'Open Sans', Sans-serif;
+    font-weight: 600;
+}
+h3 {
+    font-family: 'Open Sans', Sans-serif;
+    font-weight: 400;
 }
 .bg {
     min-height: 100%;
@@ -29,6 +38,8 @@ body {
 }
 
 .box {
+    display:flex;
+    flex-direction: column;
     width: 80%;
     margin:auto;
     background-color: rgba(240, 240, 240, 0.466);
@@ -36,6 +47,11 @@ body {
 }
 
 .head {
+    display:flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
     background-color: white;
     margin:auto;
     padding: 20px;
@@ -46,10 +62,20 @@ body {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
 }
   
 .column {
-    flex: 50%;
+    flex: 50%
+}
+
+.column1 {
+    flex: 35%
+}
+
+.column2 {
+    flex: 65%
 }
 
 .pad {
