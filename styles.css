@@ -46,10 +46,12 @@ body {
 
 .row {
     display: flex;
-    padding: 20px
-  }
+}
   
-  .column {
+.column {
     flex: 50%;
-    padding: 20px
-  }
+}
+
+.pad {
+    padding:20px;
+}
