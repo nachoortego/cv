@@ -66,18 +66,6 @@ h4 {
     font-family: 'Open Sans', Helvetica, Sans-serif;
 
 }
-@media (max-width: 1150px) {
-    .head {
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;    }
-    .box {
-        width:100%;
-      }
-    body {
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-  }
 
 .row {
     display: flex;
@@ -99,5 +87,53 @@ h4 {
 
 .pad {
     padding:40px;
+}
+
+@media (max-width: 1150px) {
+    .head {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;    }
+    .box {
+        width:100%;
+        border-radius: 0px;
+      }
+    body {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+  }
+
+  @media (max-width: 899px) {
+    .head {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;    }
+    .box {
+        width:100%;
+      }
+    body {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .row {
+        display: flex;
+        flex-wrap: colum;
+        align-content: stretch;
+    }
+
+    .column1 {
+        order: 2
+    }
+    
+    .column2 {
+        order: 1
+    }
+
+  }
+
+  @media (max-width: 650px) {
+    .pad {
+        padding:10px;
+    }
+
 }
 
