@@ -4,6 +4,7 @@ body {
     font-family: 'Open Sans', Sans-serif;
     font-weight: 400;
 }
+
 h2 {
     font-family: 'Open Sans', Sans-serif;
     font-weight: 700;
@@ -51,7 +52,6 @@ h4 {
 }
 
 
-
 .head {
     display:flex;
     height: 150px;
@@ -64,7 +64,20 @@ h4 {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     font-family: 'Open Sans', Helvetica, Sans-serif;
+
 }
+@media (max-width: 1150px) {
+    .head {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;    }
+    .box {
+        width:100%;
+      }
+    body {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+  }
 
 .row {
     display: flex;
@@ -87,3 +100,4 @@ h4 {
 .pad {
     padding:40px;
 }
+
