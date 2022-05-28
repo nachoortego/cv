@@ -1,2 +1,4 @@
 # CV
-Mi CV escrito en HTML/CSS y hosteado en Github Pages. Completamente responsive.
+Mi CV escrito desde cero en **HTML**,**CSS**.
+Hosteado en [GitHub Pages](https://pages.github.com/). 
+Completamente responsive.
