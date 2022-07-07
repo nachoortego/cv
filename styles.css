@@ -89,7 +89,7 @@ h4 {
     padding:40px;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1250px) {
     .head {
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;    }
